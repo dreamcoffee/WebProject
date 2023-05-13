@@ -1,0 +1,54 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.menu {
+    background : rgb(75, 72, 72);
+    width: 100%;
+    height: 20%;
+}
+
+.menu ul {
+    margin : 0;
+    padding : 0;
+}
+
+.menu ul li{
+    display : inline-block;
+    list-style-type: none;
+    padding : 30px 50px;
+}
+
+.menu ul li a{
+    display: block;
+    align-items: center;
+    text-align: center;
+    float : right;
+    font-family: 'G마켓 산스 TTF';
+    font-size: large;
+    color : white;
+    text-decoration: none;
+}
+
+.menu ul li:hover{
+    background-color: gray;
+}
+
+.middle {
+    background-color: blanchedalmond;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 15%;
+}
+
+.middle h3 {
+    font-size: 2em;
+    
+}
+
+.profile {
+    border-style: solid;
+    border-radius: 70%;
+    overflow: hidden;
+}
