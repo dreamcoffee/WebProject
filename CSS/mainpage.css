@@ -1,54 +1,55 @@
-body{
-    width: 100%;
-    height: 100%;
-}
-
-.menu {
-    background : rgb(75, 72, 72);
-    width: 100%;
-    height: 20%;
-}
-
-.menu ul {
-    margin : 0;
-    padding : 0;
-}
-
-.menu ul li{
-    display : inline-block;
-    list-style-type: none;
-    padding : 30px 50px;
-}
-
-.menu ul li a{
-    display: block;
-    align-items: center;
-    text-align: center;
-    float : right;
-    font-family: 'G마켓 산스 TTF';
-    font-size: large;
-    color : white;
-    text-decoration: none;
-}
-
-.menu ul li:hover{
-    background-color: gray;
+body {
+    margin: 0px;
+    padding: 0px;
 }
 
 .middle {
     background-color: blanchedalmond;
     text-align: center;
     padding-top: 150px;
-    padding-bottom: 15%;
+    padding-bottom: 3%;
 }
 
 .middle h3 {
     font-size: 2em;
-    
+    animation-name: in-out; 
+    animation-duration: 2s; 
+    animation-iteration-count: 1; 
+}
+
+.middle p{
+    font-family: 'G마켓 산스 TTF';
+    animation-name: in-out; 
+    animation-duration: 2s; 
+    animation-iteration-count: 1; 
+}
+
+@keyframes in-out{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+
+.middle p:hover{
+    transform: scale(1.2);
 }
 
 .profile {
     border-style: solid;
     border-radius: 70%;
     overflow: hidden;
+    box-shadow: 5px 10px 20px;
+    animation-name: in-out; 
+    animation-duration: 2s; 
+    animation-iteration-count: 1; 
+}
+
+.section2 {
+    background-color: darkseagreen;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 1%;
 }
