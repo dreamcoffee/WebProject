@@ -3,33 +3,73 @@ body{
     margin: 0px;
 }
 
-.section1 {
-    margin-top: -10px;
+.list1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(240, 240, 240);
     width: 100%;
-    height: 300px;
+    height: 100vh;
+    text-align: center;
 }
 
-.section1 h1 {
+.list1 h1 {
     font-family: "나눔스퀘어OTF_ac ExtraBolod";
     padding-left: 30px;
     color: rgb(39, 105, 114);
-    font-size : 40px;
+    font-size : 40px;   
 }
 
-.section1 h3 {
-    font-family: "나눔스퀘어OTF_ac ExtraBold";
-    font-size: x-large;
+.list1 h3 {
+    margin-top: 0px;
+    padding-top: 20px;
+    font-family: "나눔스퀘어OTF ExtraBold";
+    font-size: 50px;
     text-align: center;
 }
 
-.profile {
-    margin-top: -20px;
-    border-radius: 70%;
-    overflow: hidden;
+.explanation{
+    font-family: "나눔스퀘어OTF";
+    font-size: 20px;
+    text-align: center;
 }
 
-.middle {
+.explanation_title{
+    font-family: "나눔스퀘어OTF ExtraBold";
+    font-size: 22px;
     text-align: center;
-    padding-bottom: 3%;
+    margin-top: 0px;
+    color: rgb(142, 151, 92);
+}
+
+.divlist{ 
+    font-family: "나눔스퀘어OTF";
+    display: inline-block;
+    margin: 40px 20px;
+    padding-bottom: 20px;
+    width: 300px;
+}
+
+.divlist img{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    transition: 0.5s ease-in-out;
+}
+
+.divlist img:hover{
+    transform: scale(1.1);
+}
+
+.divlist2{ 
+    font-family: "나눔스퀘어OTF";
+    display: inline-block;
+    margin: 10px 20px;
+    width: 400px;
+}
+
+.divlist3{
+    display: flex;
+    align-items : center;
+    justify-content: center;
 }
