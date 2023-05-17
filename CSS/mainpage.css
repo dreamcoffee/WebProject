@@ -43,9 +43,17 @@ body {
     animation-iteration-count: 1; 
 }
 
-.section2 {
-    background-color: darkseagreen;
+
+.explanation{
+    font-family: "나눔스퀘어OTF";
+    font-size: 20px;
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 1%;
+}
+
+.explanation_title{
+    font-family: "나눔스퀘어OTF ExtraBold";
+    font-size: 22px;
+    text-align: center;
+    margin-top: 0px;
+    color: rgb(142, 151, 92);
 }
