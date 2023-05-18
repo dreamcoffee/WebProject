@@ -21,15 +21,28 @@
     <section>
         <div class = "middle">
             <span><img class ="profile" src="IMAGE/내사진.jpg" width="300" height="300"></span>
-            <h3>안녕하세요!</h3>
+            <canvas id="MyCanvas" width="300px" height="100px"></canvas>
             <p>프로그래머를 꿈 꾸고 있는 정주원입니다!</p>
         </div>
     </section>
 
     <div class="list1">
         <h3>이루고 싶은 목표</h3>
-        <p class="explanation">"원하는 분야에 언제든지 도전할 수 있는 삶"</p>
-        
+        <p class="explanation">"남 부럽지 않게 원하는걸 하며 사는 삶"</p>
+        <hr style="border:3px solid#878787; display:block; width: 100%;">
+        <p class="explanation"></p>
     </div>
+
+    <div class="list1" style="background-color: blanchedalmond;">
+        <h3>성장 과정</h3>
+
+    </div>
+    <script>
+        var canvas = document.getElementById("MyCanvas");
+        var context = canvas.getContext("2d");
+
+        context.font = "italic 50px forte";
+        context.fillText("Heelo!", 80, 50);
+    </script>
 </body>
 </html>
