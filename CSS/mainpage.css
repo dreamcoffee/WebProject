@@ -48,6 +48,7 @@ body {
     font-family: "나눔스퀘어OTF";
     font-size: 20px;
     text-align: center;
+    width: 800px;
 }
 
 .explanation_title{
@@ -56,4 +57,37 @@ body {
     text-align: center;
     margin-top: 0px;
     color: rgb(142, 151, 92);
+}
+
+/* 성장 과정 div */
+
+.produce1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+    font-family: "나눔스퀘어OTF_ac";
+}
+
+.produce1 h1 {
+    font-family: "나눔스퀘어OTF_ac ExtraBolod";
+    padding-left: 30px;
+    color: rgb(39, 105, 114);
+    font-size : 40px;   
+}
+
+.produce1 h3 {
+    margin-top: 0px;
+    padding-top: 20px;
+    font-family: "나눔스퀘어OTF ExtraBold";
+    font-size: 50px;
+    text-align: center;
+} 
+
+.produce1 p{
+    font-size: 20px;
+    margin: 5px;
 }
