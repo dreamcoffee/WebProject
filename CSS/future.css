@@ -1,12 +1,8 @@
-body{
-    padding: 0px;
-    margin: 0px;
-}
-
 .explanation{
     font-family: "나눔스퀘어OTF";
     font-size: 20px;
     text-align: center;
+    width: 800px;
 }
 
 .explanation_title{
@@ -14,6 +10,13 @@ body{
     font-size: 22px;
     text-align: center;
     margin-top: 0px;
+}
+
+.navlist{
+    font-family: "나눔스퀘어OTF";
+    font-size: 20px;
+    text-align: center;   
+    width: 800px;
 }
 
 .produce1 {

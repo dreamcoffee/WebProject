@@ -1,3 +1,8 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
 .list1 {  /* 한 화면에 가득 찬 하나의 메인 div를 생성하는데 사용합니다.*/
     display: flex;
     justify-content: center;
@@ -45,6 +50,7 @@
 }
 
 
+/* 제목과 글을 수평으로 나열 할 때 사용하는 List입니다.*/
 .divlist2{ 
     font-family: "나눔스퀘어OTF";
     display: inline-block;
