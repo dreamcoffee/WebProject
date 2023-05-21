@@ -57,9 +57,3 @@ body{
     margin: 10px 20px;
     width: 400px;
 }
-
-.divlist3{
-    display: flex;
-    align-items : center;
-    justify-content: center;
-}
