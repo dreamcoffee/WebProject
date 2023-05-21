@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>미래 계획</title>
     <link rel="stylesheet" href="CSS/menubar.css">
     <link rel="stylesheet" href="CSS/list.css">
     <link rel="stylesheet" href="CSS/future.css">
@@ -79,20 +79,20 @@
     </div>
 
     <script>
-        const yearlyGoals = [
+        var yearlyGoals = [
           "",
           "SQLD 자격증 따기",
           "군대 잘 다녀오기"
         ];
     
         function getCurrentDate() {
-          const currentDate = new Date();
+          var currentDate = new Date();
           return currentDate.getFullYear();
         }
     
         function printSelectedGoal() {
-          const currentYear = getCurrentDate();
-          const selectedGoal = yearlyGoals[currentYear % yearlyGoals.length];
+          var currentYear = getCurrentDate();
+          var selectedGoal = yearlyGoals[currentYear % yearlyGoals.length];
           document.getElementById("goal").innerHTML = `저의 ${currentYear}년 목표는 "${selectedGoal}"입니다.`;
         }
     

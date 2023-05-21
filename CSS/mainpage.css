@@ -3,6 +3,10 @@
     text-align: center;
     padding-top: 150px;
     padding-bottom: 3%;
+
+    animation-name: in-out; 
+    animation-duration: 2s; 
+    animation-iteration-count: 1; 
 }
 
 .middle h3 {
@@ -14,10 +18,9 @@
 
 .middle p{
     font-family: 'G마켓 산스 TTF';
-    animation-name: in-out; 
-    animation-duration: 2s; 
-    animation-iteration-count: 1; 
 }
+
+
 
 @keyframes in-out{
     0%{

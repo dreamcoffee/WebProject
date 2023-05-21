@@ -7,6 +7,19 @@
     <link rel="stylesheet" href="CSS/menubar.css">
     <link rel="stylesheet" href="CSS/list.css">
     <link rel="stylesheet" href="CSS/Integration.css">
+
+    <script>
+        function toggleDivVisibility(divId) {
+          var div = document.getElementById(divId);
+          var checkbox = document.getElementById('checkbox-' + divId);
+          
+          if (checkbox.checked) {
+            div.style.display = "flex";
+          } else {
+            div.style.display = "none";
+          }
+        }
+      </script>
 </head>
 <body>
     <header>
@@ -25,17 +38,25 @@
             <span><img class ="profile" src="IMAGE/내사진.jpg" width="300" height="300"></span><br>
             <canvas id="MyCanvas" width="300px" height="50px"></canvas>
             <p>프로그래머를 꿈 꾸고 있는 정주원입니다!</p>
+            <form>
+                <input type="checkbox" id="checkbox-div1" onchange="toggleDivVisibility('div1')" checked>목표<br>
+                <input type="checkbox" id="checkbox-div2" onchange="toggleDivVisibility('div2')" checked>성장 과정<br>
+                <input type="checkbox" id="checkbox-div3" onchange="toggleDivVisibility('div3')" checked>중요하다 생각하는 사회 이슈<br>
+                <input type="checkbox" id="checkbox-div4" onchange="toggleDivVisibility('div4')" checked>프로젝트 중 기술적 어려움<br>
+                <input type="checkbox" id="checkbox-div5" onchange="toggleDivVisibility('div5')" checked>개인 역량<br>
+              </form>   
+              <p>각 체크박스를 체크하여 보고싶은 내용을 확인합니다!</p>
         </div>
     </section>
 
-    <div class="list1">
+    <div id="div1" class="list1">
         <h3>이루고 싶은 목표</h3>
         <p class="explanation">"남 부럽지 않게 원하는걸 하며 사는 삶"</p>
         <hr style="border:3px solid#878787; display:block; width: 100%;">
         <p class="explanation"></p>
     </div>
 
-    <div class="produce1" style="background-color: blanchedalmond;">
+    <div id="div2" class="produce1" style="background-color: blanchedalmond;">
         <h3>성장 과정</h3>
         <p>저의 어렸을 적 많은 지역을 옮겨 다녔습니다.</p>
         <div>
@@ -84,7 +105,7 @@
         </p>
     </div>
 
-    <div class="list1">
+    <div id="div3" class="list1">
         <h3 style="margin-bottom: 0px;">중요하다고 생각하는 사회 이슈</h3>
         <h2>ChatGPT 및 AI</h2>
         <p class="explanation">
@@ -127,7 +148,7 @@
         </p>
     </div>
 
-    <div class="produce1" style="background-color: blanchedalmond; font-size: 18px">
+    <div id="div4" class="produce1" style="background-color: blanchedalmond; font-size: 18px">
         <h3>프로젝트 중 기술적으로 어려웠던 상황</h3>
         <h2>프로젝트 개요</h2>
         <p class="explanation" style="font-size: 18px;">
@@ -149,7 +170,7 @@
         </p>
     </div>
 
-    <div class="list1">
+    <div id="div5" class="list1">
         <h3>역량</h3>
         <P style="font-size: 20px;">저의 역량은 크게 2가지로 볼 수 있습니다.</P>
         <div style="display: flex;">
